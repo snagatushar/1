@@ -1,8 +1,11 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
 import { useParams } from "react-router-dom";
 import { createClient } from "@supabase/supabase-js";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
+
+
 
 /** ---------------- Supabase client ---------------- */
 const supabaseUrl = "https://begfjxlvjaubnizkvruw.supabase.co";
